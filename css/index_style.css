@@ -1,0 +1,197 @@
+/*index_style.css*/
+main{
+    width: 99vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+}
+main>.areaWrap{
+    width: 198vw;
+    height: 100vh;
+    position: relative;
+    transition: all 0.5s;
+}
+main>.areaWrap>.area1{
+    width: 99vw;
+    height: 100vh;
+    background-image: url('../img/index/s90main.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+    position: relative;
+}
+main>.areaWrap>.area1>.tWrap{
+    position: absolute;
+    width: 263.2px;
+    height: 160px;
+    top: 280px;
+    right: calc((99vw - 1080px) / 2 + 10px);
+}
+main>.areaWrap>.area1>.tWrap>h4{
+    font-weight: bold;
+    color : white;
+    text-align: right;
+    line-height: 40px;
+}
+main>.areaWrap>.area1>.tWrap>h2{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 80px;
+    color : white;
+    text-align: right;
+}
+main>.areaWrap>.area1>.tWrap>h3{
+    font-size: 18px;
+    font-weight: bold;
+    color : white;
+    text-align: right;
+    line-height: 40px;
+}
+main>.areaWrap>.area2{
+    width: 99vw;
+    height: 100vh;
+    background-image: url('../img/index/xc40main.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+    position: relative;
+}
+main>.areaWrap>.area2>.tWrap{
+    color : white;
+    position: absolute;
+    top: 280px;
+    left: calc((99vw - 1080px) / 2 + 10px);
+}
+main>.areaWrap>.area2>.tWrap>h4{
+    font-weight: bold;
+    color : white;
+    text-align: left;
+    line-height: 40px;
+}
+main>.areaWrap>.area2>.tWrap>h2{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color : white;
+    text-align: left;
+}
+main>.areaWrap>.area2>.tWrap>h3{
+    font-weight: bold;
+    font-size: 18px;
+    color : white;
+    text-align: left;
+    line-height: 40px;
+}
+main>.btnWrap{
+    position: absolute;
+    left: calc(49.5vw - 49.5px); bottom: 40px;
+    overflow: hidden;
+    width: 100px;
+    height: 30px;
+}
+main>.btnWrap>label{
+
+}
+main>.btnWrap>label>div{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    float: left;
+    margin: 0 5px;
+}
+main>.areaWrap>.btnWrap>label>.leftBtn{
+}
+main>.areaWrap>.btnWrap>label>.rightBtn{}
+
+input#lb:checked~main>.areaWrap{
+    margin-left: 0;
+}
+input#rb:checked~main>.areaWrap{
+    margin-left: -99vw;
+}
+input#lb:checked~main>.btnWrap>label>.leftBtn{
+    border: 6px solid #888;
+}
+input#rb:checked~main>.btnWrap>label>.rightBtn{
+    border: 6px solid #888;
+}
+
+div.content{
+    background-color: #000;
+}
+div.content>header{}
+div.content>header>h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+    color:white;
+}
+div.content>.imgWrap{
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 40px;
+}
+div.content>.imgWrap>.figureWrap{
+   width: 520px;
+   height: 270px;
+   height: 270px;
+   margin: 0 10px;
+   float: left;
+   overflow:hidden;
+}
+div.content>.imgWrap>.figureWrap>figure{
+    width: 520px;
+    height: 270px;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    transition: all 1s;
+    transform-origin: center;
+}
+div.content>.imgWrap>.figureWrap>figure>a{
+    width: 520px;
+    height: 270px;
+    display: block;
+}
+div.content>.imgWrap>.figureWrap>figure:hover{
+    width: 570px;
+    height: 290px;
+    background-position: center;
+    transform-origin: center;
+}
+
+div.content>.imgWrap>.figureWrap>figure:hover>h2{
+    opacity: 1;
+    text-shadow: 3px 3px 10px #000;
+    right: 60px; bottom: 30px;
+}
+div.content>.imgWrap>.figureWrap>.img01{
+    background-image: url('../img/index/s60hl.jpg');
+}
+div.content>.imgWrap>.figureWrap>.img02{
+    background-image: url('../img/index/s90hl.jpg');
+}
+div.content>.imgWrap>.figureWrap>.img03{
+    background-image: url('../img/index/xc40bl.jpg');
+    margin-top: 10px;
+}
+div.content>.imgWrap>.figureWrap>.img04{
+    background-image: url('../img/index/xc60bl.jpg');
+    margin-top: 10px;
+}
+
+div.content>.imgWrap>.figureWrap>figure>h2{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+    line-height: 40px;
+    position: absolute;
+    right: 10px; bottom: 10px;
+    opacity: 0;
+    transition: all 1s;
+}

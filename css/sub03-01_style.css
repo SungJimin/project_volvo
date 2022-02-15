@@ -1,0 +1,200 @@
+/*sub03-01_style.css*/
+
+main{
+    background-image: url('../img/sub03/s90_F_main.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+main>.tWrap{
+    color: white;
+    text-align: left;
+    position: absolute;
+    right: calc((99vw - 1080px) / 2 + 10px);
+    bottom: 320px;
+}
+main>.tWrap>h4{
+    font-weight: bold;
+    line-height: 40px;
+}
+main>.tWrap>h2{
+    line-height: 60px;
+    font-size: 36px;
+    font-weight: bold;
+    text-indent: 0;
+    height: 120px;
+}
+main>.tWrap>p{
+    height: 80px;
+}
+
+div.content{}
+div.content>header{}
+div.content>header>.title{}
+div.content>header>.title.bar{}
+div.content>header>.title>h2{}
+div.content>header>.title>h5{}
+
+div.sl>section{
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+div.sl>header{}
+div.sl>header>.title{
+    overflow: hidden;
+}
+
+div.sl>header>.title>.bar{
+    float: left;
+}
+div.sl>header>.title>h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 80px;
+    text-indent: 20px;
+}
+div.sl>header>.title>h5{
+    line-height: 40px;
+    padding-left: 30px;
+    color : #0952a1;
+}
+div.sl>section:after{
+    display: block; content: '';
+    clear: both;
+}
+div.sl>section>article{
+    float: left;
+    margin: 0 8px;
+    border: 2px solid #e8e8e8;
+    transition: all 0.5s;
+}
+div.sl>section>article:hover{
+    box-shadow: 0px 1px 12px rgba(0,0,0,0.2);
+    margin-top: -10px;
+}
+div.sl>section>article>figure{
+    width: 340px;
+    height: 320px;
+}
+div.sl>section>article>.f1{
+    background-image: url('../img/sub03/s90_F_front.jpg');
+    background-position: center;
+    background-size: cover;
+}
+div.sl>section>article>.f2{
+    background-image: url('../img/sub03/s90_F_side.jpg');
+    background-position: center;
+    background-size: cover;
+}
+div.sl>section>article>.f3{
+    background-image: url('../img/sub03/s90_F_inside.jpg');
+    background-position: center;
+    background-size: cover;
+}
+div.sl>section>article>p{
+    text-align: center;
+    width: 340px;
+    height: 160px;
+    padding-top: 40px;
+}
+
+div.ambi{}
+div.ambi>header{
+    height: 120px;
+}
+div.ambi>header>.title{
+    float: right;
+    overflow: hidden;
+}
+div.ambi>header>.title>.bar{
+    float: right;
+}
+div.ambi>header>.title>h2{
+    float: right;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-right: 20px;
+}
+div.ambi>header>.title>h5{
+    line-height: 40px;
+    padding-left: 60px;
+    color : #0952a1;
+}
+div.ambi>section{
+    width: 1080px;
+    margin: 40px auto 0;
+}
+div.ambi>section>article{}
+
+div.gall{}
+div.gall>header{}
+div.gall>header>.title{
+    overflow: hidden;
+}
+div.gall>header>.title>.bar{
+    float: left;
+}
+div.gall>header>.title>h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 20px;
+}
+div.gall>section{
+    width: 1080px;
+    margin: 40px auto 0;
+    overflow: hidden;
+}
+div.gall>section>article{
+    float: left;
+    margin: 0 10px;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+div.gall>section>article>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+div.gall>section>article:nth-child(2)~article{
+    margin-top: 20px;
+}
+div.gall>section>.image01{
+    width: 520px;
+    height: 280px;
+}
+div.gall>section>.image02{
+    width: 340px;
+    height: 280px;
+}
+div.gall>section>.img01{
+    background-image: url('../img/sub03/s90_F_g1.jpg');
+}
+div.gall>section>.img02{
+    background-image: url('../img/sub03/s90_F_g2.jpg');
+}
+div.gall>section>.img03{
+    background-image: url('../img/sub03/s90_F_g3.jpg');
+}
+div.gall>section>.img04{
+    background-image: url('../img/sub03/s90_F_g4.jpg');
+}
+div.gall>section>.img05{
+    background-image: url('../img/sub03/s90_F_g5.jpg');
+}
+div.gall>section>.img06{
+    background-image: url('../img/sub03/s90_F_g6.jpg');
+}
+div.gall>section>.img07{
+    background-image: url('../img/sub03/s90_F_g7.jpg');
+}
+
+div.gall>section>article:hover{
+    border-radius: 5px;
+    background-position: center;
+    background-size: 110%;
+}

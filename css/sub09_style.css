@@ -1,0 +1,247 @@
+/*sub09_style.css*/
+body{width:100;}
+main{
+    background-image: url('../img/sub09/main.jpg');
+    width:100%;
+    margin: 0 auto;}
+div.explain{}
+div.explain>header{
+    overflow: hidden;
+}
+div.explain>header>div{
+    float: left;
+}
+div.explain>header>h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 80px;
+    margin-left: 20px;
+    float: left;
+    width: 520px;
+}
+div.explain>header>h5{
+    margin-left: 20px;
+    font-weight: bold;
+    color: #0952a1;
+    margin-left: 30px;
+}
+div.explain>header>p{
+    margin-top: 20px;
+    width: 520px;
+    float: left;
+}
+div.explain>.section{
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+div.explain>.section>article>.img1{
+    width: 540px; height: 360px;
+    background-image: url('../img/sub09/1.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+div.explain>.section>article>.img2{
+    background-image: url('../img/sub09/2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+div.explain>.section>article>.img3{
+    background-image: url('../img/sub09/3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+div.explain>.section>article>.img4{
+    background-image: url('../img/sub09/4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+div.explain>.section>article{
+    width: 1080px;
+    height: 360px;
+    margin: 0 10px;
+    margin-top: 40px;
+    float: left;}
+
+div.explain>.section>article>div{
+    width: 540px;
+    height: 360px;
+    float: left;
+    overflow: hidden;}
+div.explain>.section>article>.segment{
+    width: 520px;
+    height: 360px;
+    float: left;}
+div.explain>.section>article>.segment>h3{
+    margin: 0 70px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 40px;
+}
+
+div.explain>.section>article>.segment>.tar{
+
+}
+div.explain>.section>article>.segment>p{
+    margin-top: 20px;
+    height: 240px;
+    margin: 0 70px;
+}
+
+/*cservice*/
+
+div.cservice{
+    margin: 0 auto;
+    margin-top: 0px;
+    position: relative;
+    height: 980px;
+
+}
+div.cservice>.header{
+    width: 1060px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: #000;
+    overflow: hidden
+}
+div.cservice>.header>h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 80px;
+    text-align: right;
+    color: #fff;
+    float: right;
+    width: 930px;
+    margin-top: 40px;
+}
+
+div.cservice>.header>div{
+    width: 10px; height: 40px;
+    margin-top: 60px;
+    background-color: #0952a1;
+    float: right;
+    margin-right : 100px;
+    margin-left: 20px;
+}
+
+
+div.cservice>.header>p{
+    height: 80px;
+    color: #fff;
+    text-align: right;
+    margin-left: 20px;
+     margin-right : 100px;
+}
+
+div.cservice>.section{
+    height: 640px;
+    width: 1080px;
+    overflow: hidden;
+    position: absolute;
+    margin: 0 auto;
+    top: 320px;
+    left:0px; right: 0;
+}
+div.cservice>.section>.article{
+
+    width: 430px; height: 320px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+}
+div.cservice>.section>.article:first-child{
+    margin-left: 100px;
+    margin-right: 10px;
+}
+div.cservice>.section>.article:nth-child(2){
+    margin-right: 100px;
+
+}
+div.cservice>.section>.article:nth-child(3){
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+div.cservice>.section>.article:nth-child(4){
+    margin-right: 100px;
+    margin-top: 10px;
+}
+div.cservice>.section>.article>.image{
+    height: 320px;
+
+}
+div.cservice>.section>.article>.segment{
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+    position: absolute;
+    top: 320px;
+    transition: top 0.5s;
+    width: 430px; height: 320px;
+    margin: 0 auto;
+
+
+}
+div.cservice>.section>.article:hover>.segment{
+    top: 0;
+}
+
+div.cservice>.section>.article>.segment>h3{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 80px;
+}
+div.cservice>.section>.article>.segment>p{
+   font-size: 14px;
+    width: 290px; height: 200px;
+    margin:  20px auto;
+}
+
+
+/*map*/
+
+div.map{
+    padding: 120px 0;
+    padding-top: 240px;
+}
+div.map>header{
+    overflow: hidden;
+}
+div.map>header>div{
+    float: left;
+}
+div.map>header>h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 80px;
+    margin-left: 20px;
+}
+
+div.map>header>p{
+    width: 520px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+div.map>section{
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+div.map>section.myMap{
+    width: 1080px; height: 400px;
+    background-color: ;
+}
+div.map>section>div{
+    overflow: hidden;
+    text-align: center;
+}
+div.map>section>div:first-child~div{
+    margin-top: 40px;
+}

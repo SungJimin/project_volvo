@@ -1,0 +1,292 @@
+/*카 이미지*/
+div.c1{
+    padding-top: 480px;
+    position: relative;
+}
+div.c1>header{
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.c1>header>div{
+    width: 10px; height: 40px;
+    margin-top: 20px;
+    background-color: #0952a1;
+    float: left;
+    margin-left: 80px;
+}
+div.c1>header>h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 80px;
+    margin-left: 100px;
+}
+div.c1>header>p{
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+div.c1>.carWrap {
+    overflow: hidden;
+    position: relative;
+    width: 740px;
+    height: 445px;
+}
+
+div.c1>.carWrap>input {
+    display: none;
+}
+
+div.c1>.carWrap>input#car1:checked~.imgGroup {
+    margin-left: 0;
+}
+
+div.c1>.carWrap>input#car2:checked~.imgGroup {
+    margin-left: -100%;
+}
+
+div.c1>.carWrap>input#car3:checked~.imgGroup {
+    margin-left: -200%;
+}
+
+div.c1>.carWrap>input#car4:checked~.imgGroup {
+    margin-left: -300%;
+}
+
+div.c1>.carWrap>.imgGroup {
+    width: calc(740px * 5);
+    overflow: hidden;
+    margin: 0 auto;
+    margin-left: 0;
+    transition: margin-left 1s;
+}
+
+div.c1>.carWrap>.imgGroup>li {
+    width: 740px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+li.ca1 {
+    background-image: url('../img/sub03/s90black.jpg');
+}
+
+li.ca2 {
+    background-image: url('../img/sub03/s90blue.jpg');
+}
+
+li.ca3 {
+    background-image: url('../img/sub03/s90white.jpg');
+}
+
+div.c1>.carWrap>.btnGroup {
+    width: 140px; height:45px;
+    padding: 20px 0;
+    position: relative;
+    margin: auto;
+    left: 0; right: 0; bottom: 0;
+}
+
+div.c1>.carWrap>.btnGroup>li {
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    float: left;
+    margin: 0 10px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.2);
+}
+
+div.c1>.carWrap>.btnGroup>li:first-child {
+    background-color: #333;
+}
+
+div.c1>.carWrap>.btnGroup>li:nth-child(2) {
+    background-color: #2642a4;
+}
+
+div.c1>.carWrap>.btnGroup>li:nth-child(3) {
+    background-color: #333;
+}
+
+div.c1>.carWrap>.btnGroup>li:last-child {
+    background-color: #fff;
+}
+
+div.c1>.carWrap>.btnGroup>li>label {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*하이라이트*/
+div.cardWrap {
+	margin-top: 80px;
+	overflow: hidden;
+}
+
+div.cardWrap>header {
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+div.cardWrap>header>div {
+	width: 10px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: #0952a1;
+	float: right;
+	margin-left: 10px;
+}
+
+div.cardWrap>header>h2 {
+	font-weight: bold;
+	float: right;
+	font-size: 36px;
+	line-height: 80px;
+}
+
+div.cardWrap>.img {
+	width: 100vw;
+	height: 800px;
+	background-image: url('../img/sub03/pic01.JPG');
+	margin-top: 40px;
+}
+
+div.cardWrap>.imgCard {
+	width: 1080px;
+	height: 390px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+div.cardWrap>.imgCard:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+div.cardWrap>.imgCard>.article {
+	width: 250px;
+	height: 400px;
+	float: left;
+	margin: 0 10px;
+	border: 2px solid #e8e8e8;
+	transition: all 0.5s;
+}
+
+div.cardWrap>.imgCard>.article:hover {
+	box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.2);
+	margin-top: -10px;
+}
+
+div.cardWrap>.imgCard>.article>div {
+	width: px;
+	height: px;
+}
+
+div.cardWrap>.imgCard>.article>.box {
+	width: 250px;
+	height: 150px;
+
+}
+
+div.cardWrap>.imgCard>.article>.box>h3 {
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	width: 250px;
+	margin-top: 40px;
+}
+
+div.cardWrap>.imgCard>.article>.box>p {
+	font-size: 14px;
+	width: 230px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+div.explain {}
+
+div.explain>header {
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+div.explain>header>div {
+	width: 10px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: #0952a1;
+	float: left;
+	margin-left: 10px;
+}
+
+div.explain>header>h2 {
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 80px;
+}
+
+div.explain>header>p {
+	margin-left: 30px;
+}
+
+div.explain>.section {
+	width: 1080px;
+	margin: 0 auto;
+
+	overflow: hidden;
+}
+
+div.explain>.section>article {
+	width: 1080px;
+	height: 360px;
+	margin: 0 10px;
+	float: left;
+	margin-top: 40px;
+}
+
+div.explain>.section>article>div {
+	width: 540px;
+	height: 360px;
+	float: left;
+	margin: 0;
+}
+
+div.explain>.section>article>.segment {
+	width: 520px;
+	height: 360px;
+	float: left;
+
+}
+
+div.explain>.section>article>.segment>h3 {
+	margin: 0 70px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 40px;
+	margin-top: 40px;
+}
+
+div.explain>.section>article>.segment>.tar {
+	text-align: ;
+
+}
+
+div.explain>.section>article>.segment>p {
+	margin-top: 20px;
+	height: 240px;
+	margin: 0 70px;
+}
+div.explain>.section>.finally {
+    width: 1080px;
+    margin: 0 auto ;
+    color: #999;
+    text-align: center;
+    line-height: 120px;

@@ -1,0 +1,358 @@
+/*sub01-01_style.css*/
+* h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 80px;
+}
+* h3{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+}
+* h5{
+    font-size: 12px;
+}
+
+/*main*/
+main{
+    background-image: url('../img/sub01-01/xc60_main.jpg');
+    background-size: cover;
+    position: relative;
+}
+main>header{
+    width: 1080px;
+    margin: 0 auto;
+
+    position: absolute;
+    width: 430px; height: 200px;
+    bottom: 40px; left: calc((100vw - 1080px) / 2 + 10px);
+}
+main>header>.title{
+    color: #fff;
+    margin-left: 10px;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+    /* padding-top: 680px; */
+}
+main>header>.title>p{
+    height: 80px;
+}
+
+/*content pe*/
+div.content{
+    /*width: 100%;*/
+}
+div.pe{}
+div.pe>header{
+    overflow: hidden;
+}
+div.pe>header>.title{
+    float: right;
+    overflow: hidden;
+    margin-right: 10px;
+}
+div.pe>header>.title>.bar{
+    float: right;
+    margin-left: 10px;
+}
+div.pe>header>.title>h2{
+    float: right;
+}
+div.pe>header>.title>h5{
+    color: #0952a1;
+    text-align: right;
+    margin-right: 20px;
+}
+div.pe>section{
+    margin-top: 40px;
+}
+div.pe>section:after{
+    display: block; content: '';
+    clear: both;
+}
+div.pe>section>article{
+    float: left;
+    text-align: center;
+    margin: 0 8px;
+    border: 2px solid #e8e8e8;
+    transition: all 0.5s;
+}
+div.pe>section>article:hover{
+    box-shadow: 0px 1px 12px rgba(0,0,0,0.2);
+    margin-top: -10px;
+}
+div.pe>section>article>figure{
+    width: 340px; height: 280px;
+}
+div.pe>section>article>.pe01{
+    background-image: url('../img/sub01-01/performance_01.jpg');
+}
+div.pe>section>article>.pe02{
+    background-image: url('../img/sub01-01/performance_02.jpg');
+}
+div.pe>section>article>.pe03{
+    background-image: url('../img/sub01-01/performance_03.JPG');
+}
+div.pe>section>article>h3{
+    margin-top: 40px;
+}
+div.pe>section>article>p{
+    height: 120px;
+}
+
+/*content in*/
+
+/* 선생님 시범
+div.in{
+    background: #ccc;
+}
+div.in>header{
+    background-color: aquamarine;
+    height: 200px;
+    position: relative;
+}
+div.in>header>.wrap{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+}
+div.in>header:after{
+    display: block; content: '';
+    width: calc(1400px);
+    height: 400px;
+    background: #000;
+    position: absolute;
+    right: 0;
+}
+div.in>section{
+    background-color: bisque;
+    margin-top: 40px;
+    position: relative;
+    z-index: 2;
+}
+*/
+div.in{}
+div.in>header{
+    width: 1080px;
+    height: 320px;
+
+    position: relative;
+}
+div.in>header>.wrap{
+    width: 100%; height: 320px;
+    padding: 40px 0;
+    padding-left: 80px;
+    color: #fff;
+
+    position: absolute;
+    /*우선순위 설정 숫자가 클수록 우선권이간다.*/
+    z-index: 1;
+}
+div.in>header>.wrap>.bar{
+    margin-right: 10px;
+}
+div.in>header>.wrap>h2{}
+div.in>header>.wrap>h3{
+    margin-left: 20px;
+}
+div.in>header>.wrap>p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+div.in>header:after{
+    display: block; content: '';
+    width: calc(1500px);
+    height: 680px;
+    background: #000;
+
+    position: absolute;
+    right: 10px;
+}
+div.in>section{
+    /*margin-top: 40px;*/
+    position: relative;
+    z-index: 2;
+}
+div.in>section>article{
+    overflow: hidden;
+}
+div.in>section>.img{
+    background-image: url('../img/sub01-01/intellsafe_01.jpg');
+    width: 880px; height: 520px;
+    margin: 0 auto;
+}
+div.in>section>article>.segment{
+    float: left;
+    margin: 0 10px;
+    width: 340px; height: 240px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+div.in>section>article>.segment:hover>.textWrap{
+    margin-top: -240px;
+}
+div.in>section>article>.segment>figure{
+    width: 340px; height: 240px;
+}
+div.in>section>article>.segment>.in02{
+    background-image: url('../img/sub01-01/intellsafe_02.jpg');
+}
+div.in>section>article>.segment>.in03{
+    background-image: url('../img/sub01-01/intellsafe_03.jpg');
+}
+div.in>section>article>.segment>.in04{
+    background-image: url('../img/sub01-01/intellsafe_04.jpg');
+}
+div.in>section>article>.segment>.in05{
+    background-image: url('../img/sub01-01/intellsafe_05.jpg');
+}
+div.in>section>article>.segment>.in06{
+    background-image: url('../img/sub01-01/intellsafe_06.jpg');
+}
+div.in>section>article>.segment>.in07{
+    background-image: url('../img/sub01-01/intellsafe_07.jpg');
+}
+div.in>section>article>.segment>.textWrap{
+    width: 340px; height: 240px;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+    transition: all 0.5s;
+    background-color: rgba(0,0,0,0.7);
+}
+div.in>section>article>.segment>.textWrap>p{
+    margin-top: 20px;
+}
+
+/*content su*/
+div.su{}
+div.su>header{
+    overflow: hidden;
+}
+div.su>header>.title{
+    float: right;
+    margin-right: 10px;
+}
+div.su>header>.title>.bar{
+    float: right;
+    margin-left: 10px;
+}
+div.su>header>.title>h2{
+    text-align: right;
+}
+div.su>header>.title>h5{
+    color: #0952a1;
+    margin-right: 20px;
+}
+
+div.su>section{}
+div.su>section>article{
+    margin: 40px 10px 0;
+}
+div.su>section>article>figure{
+    width: 540px; height: 440px;
+}
+div.su>section>article>header{
+    padding-left: 70px;
+    padding-top: 40px;
+    width: 520px; height: 440px;
+}
+div.su>section>article>header>h3{}
+div.su>section>article>header>p{
+    margin-top: 20px;
+}
+div.su>section>.fr{
+    overflow: hidden;
+}
+div.su>section>.fr>header{
+    float: left;
+}
+div.su>section>.fr>figure{
+    float: right;
+}
+div.su>section>.fr>.img01{
+    background-image: url('../img/sub01-01/support_01.jpg');
+}
+div.su>section>.fl{
+    overflow: hidden;
+}
+div.su>section>.fl>figure{
+    float: left;
+}
+div.su>section>.fl>header{
+    float: right;
+}
+div.su>section>.fl>.img02{
+    background-image: url('../img/sub01-01/support_02.jpg');
+}
+
+
+div.ex{}
+div.ex>header{}
+div.ex>header>.beWrap{
+    width: calc((100vw - 1080px) / 2 + 1070px); height: 680px;
+    background-color: #000;
+    margin-left: 10px;
+}
+div.ex>header>.beWrap>.wrap{
+    margin-left: 70px;
+    padding-top: 40px;
+    color: #fff;
+}
+div.ex>header>.beWrap>.wrap>h3{
+    margin-left: 20px;
+}
+div.ex>header>.beWrap>.wrap>p{
+    margin-left: 20px;
+}
+div.ex>header>.beWrap>.wrap>.bar{
+    margin-right: 10px;
+}
+
+div.ex>section{
+    margin-top: -360px;
+}
+div.ex>section>.img{
+    background-image: url('../img/sub01-01/interior_01.jpg');
+    width: 880px; height: 520px;
+    margin: 0 auto;
+}
+div.ex>section>article{
+    overflow: hidden;
+}
+div.ex>section>article>.segment{
+    margin: 0 10px;
+    margin-top: 20px;
+    float: left;
+    overflow: hidden;
+    width: 340px; height: 240px;
+    overflow: hidden;
+}
+div.ex>section>article>.segment:hover>.textWrap{
+    margin-top: -240px;
+}
+div.ex>section>article>.segment>figure{
+    width: 340px; height: 240px;
+}
+div.ex>section>article>.segment>.ex02{
+    background-image: url('../img/sub01-01/interior_02.jpg');
+}
+div.ex>section>article>.segment>.ex03{
+    background-image: url('../img/sub01-01/interior_03.jpg');
+}
+div.ex>section>article>.segment>.ex04{
+    background-image: url('../img/sub01-01/interior_04.jpg');
+}
+div.ex>section>article>.segment>.textWrap{
+    transition: all 0.5s;
+    width: 340px; height: 240px;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+    background-color: rgba(0,0,0,0.7);
+}
+div.ex>section>article>.segment>.textWrap>h3{}
+div.ex>section>article>.segment>.textWrap>p{
+    margin-top: 20px;
+}

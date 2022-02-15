@@ -1,0 +1,203 @@
+/*sub08_style.css*/
+
+h2{ font-size: 36px; font-weight: bold;
+    line-height: 80px;
+    text-indent: 10px;
+    height: 80px;}
+
+h3{ font-size: 18px; font-weight: bold;
+    line-height: 40px;}
+
+h5{ color: #0952a1;
+    font-size: 12px;
+    line-height: 40px;
+    text-indent: 20px;
+    font-weight: bold;}
+
+main{ background-image:url('../img/sub08/this_is_volvo_cars_0.jpg'); }
+
+
+div.content{}
+div.content>header{}
+div.content>header:after{
+    display: block; content: '';
+    clear: both;
+}
+div.content>header>.title{
+    overflow: hidden;
+    float: left;
+    width: calc(50% - 20px);
+    margin: 0 10px;
+
+}
+
+div.content>header>p{
+    width: calc(50% - 33px); height: 160px;
+    margin-top: 20px;
+    margin-left: 33px;
+    float: right;
+    text-align: justify;
+
+}
+
+div.content>section{}
+
+figure{background-position: center; background-size: cover;}
+.img1{background-image: url(../img/sub08/this_is_volvo_cars_1.jpg);}
+.img2{background-image: url(../img/sub08/this_is_volvo_cars_2.jpg);}
+.img3-1{background-image: url(../img/sub08/this_is_volvo_cars_3-1.jpg);}
+.img3-2{background-image: url(../img/sub08/this_is_volvo_cars_3-2.jpg);}
+.img3-3{background-image: url(../img/sub08/this_is_volvo_cars_3-3.jpg);}
+.img3-4{background-image: url(../img/sub08/this_is_volvo_cars_3-4.jpg);}
+.img4{background-image: url(../img/sub08/this_is_volvo_cars_4.jpg);}
+.img5{background-image: url(../img/sub08/this_is_volvo_cars_5.jpg);}
+.img6{background-image: url(../img/sub08/this_is_volvo_cars_6.jpg);}
+.img7{background-image: url(../img/sub08/this_is_volvo_cars_7.jpg);}
+
+div.content>.sc02{
+    padding:240px 0 200px;
+}
+div.content>.sc02>header{
+    width: 1080px;
+    margin: 0 auto;
+    color: #fff;
+    height: 160px;
+    padding: 40px 0;
+}
+div.content>.sc02>header>h3{
+    padding-left: 70px;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+}
+div.content>.sc02>header>p{
+    padding-top: 20px;
+    padding-left: 70px;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+}
+div.content>.sc02>header:after{
+    display: block; content: '';
+    width: calc((100vw - 1080px) / 2 + 1060px);
+    height: 320px;
+    background: #000;
+    position: relative;
+    z-index: 9;
+    top: -120px;
+}
+div.content>.sc02>.imgWrap{
+    /*overflow: hidden;*/
+    width: 900px; height: 680px;
+    margin:0 auto;
+    position: relative;
+    z-index: 11;
+}
+
+div.content>.sc02>.imgWrap>.over{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 0 10px;
+    height: 320px;
+    width: calc(50% - 20px);
+}
+div.content>.sc02>.imgWrap>.over:nth-child(2)~*{
+    margin-top: 20px;
+}
+div.content>.sc02>.imgWrap>.over>figure{
+    height: 320px;
+    background-position: center;
+    background-size: cover;
+}
+
+div.content>.sc02>.imgWrap>.over>.textWrap{
+    width: 100%;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    position: absolute;
+    top: 320px;
+    transition: all 1s;
+}
+div.content>.sc02>.imgWrap>.over:hover>.textWrap{
+    top: 0px;
+}
+
+div.content>.sc02>.imgWrap>.over>.textWrap>h3{
+
+}
+div.content>.sc02>.imgWrap>.over>.textWrap>p{
+    width: 58%;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+div.content>section{
+    width: 1060px; margin: 40px auto;
+    overflow: hidden;}
+div.content>section>.fr{height: 480px;}
+div.content>section>.fr>header{
+    float: left;
+    width: 450px; height: 480px;
+    padding-top: 40px; margin-left: 70px;
+    padding-right: 40px;
+}
+div.content>section>.fr>figure{
+    float: right;
+    width: 540px; height: 480px;
+}
+div.content>section>article.fl{
+    height: 560px;
+    padding: 40px 0;}
+
+div.content>section>.fl>figure{
+    height: 480px; width: 550px;
+    float: left;
+}
+div.content>section>.fl>header{
+    width: 450px;
+    float: right;
+    padding-top: 40px;
+}
+
+
+
+/* div.content>section>article{margin: 40px 0 0;}
+div.content>section>.fr{
+    overflow: hidden;
+}
+div.content>section>.fr>header{
+    float: left;
+    width: calc(50% - 30px);
+    padding-top: 40px;
+    padding-left: 80px;
+}
+div.content>section>.fr>figure{
+    width: calc(50% - 30px); height: 480px;
+    background-color: #eee;
+    float: right;
+}
+div.content>section>.fl{overflow: hidden;}
+div.content>section>.fl>figure{
+    width: calc(50% - 30px); height: 480px;
+    background-color: #eee;
+    float: left;
+}
+div.content>section>.fl>header{
+    float: right;
+    width: calc(50% - 30px);
+    padding-top: 40px;
+    padding-left: 80px;
+} */

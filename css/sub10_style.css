@@ -1,0 +1,213 @@
+/*sub10_style.css*/
+main>.frame{
+    width: 100vw;
+    height: 100vh;
+}
+div.promise{}
+div.promise>header{}
+div.promise>header>div{
+    margin-left: 10px;
+}
+div.promise>header>h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 80px;
+    margin-left: 30px;
+}
+
+div.promise>section{
+    margin: 0 auto;
+    margin-top: 40px;
+}
+div.promise>section>article{
+    overflow: hidden;
+
+
+}
+div.promise>section>article>figure{
+    width: 520px; height: 520px;
+    background-image: url('../img/sub10/1.JPG');
+    background-position: center;
+    float: left;
+    margin: 0 10px;
+}
+div.promise>section>article>.segment{
+    width: 520px; width: 520px;
+    float: left;
+    margin: 0 10px;
+    padding: 0 70px;
+}
+div.promise>section>article>.segment>h3{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 40px;
+}
+div.promise>section>article>.segment>p{
+    font-size: 14px;
+}
+
+div.skill{}
+div.skill>header{
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.skill>header>div{
+    width: 10px; height: 40px;
+    background-color: #0952a1;
+    float: right;
+    margin-top: 20px ;
+         margin-right: 10px;
+}
+div.skill>header>h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 80px;
+    margin-right: 30px;
+    text-align: right;
+}
+div.skill>header>p{
+     margin-right: 30px;
+    text-align: right;
+}
+div.skill>header>p>span{
+    color: red;
+}
+
+div.skill>section{
+    overflow: hidden;
+}
+div.skill>section>.article{
+    width: 530px;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+div.skill>section>.article:first-child{margin-top: 40px;
+    margin-left: 10px;
+}
+div.skill>section>.article:nth-child(2){
+    margin-top: 40px;
+     margin-right: 10px;
+}
+div.skill>section>.article:nth-child(3){
+    margin-left: 10px;
+}
+div.skill>section>.article:last-child{
+    margin-right: 10px;
+}
+div.skill>section>.article:hover>.segment{
+    top: 0;
+}
+div.skill>section>.article>.imge{
+    width: 520px;
+    height: 280px;
+}
+div.skill>section>.article>.segment{
+    width: 530px;
+    height: 280px;
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+    position: absolute;
+    top: 280px;
+    text-align: center;
+    transition: top 0.5s;
+    overflow: hidden;
+}
+div.skill>section>.article>.segment>h3{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 80px;
+    line-height: 40px;
+}
+div.skill>section>.article>.segment>p{
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+div.document{
+    padding-bottom: 0;
+}
+div.document>header{}
+div.document>header>div{
+    width: 10px; height: 40px;
+    background-color: #0952a1;
+    margin-top: 20px ;
+    margin-left: 10px;
+    float: left;
+}
+div.document>header>h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 80px;
+    margin-left: 30px;
+}
+div.document>section{
+    margin-top: 40px;
+    width: 100vw;
+}
+div.document>section>article{
+    width: 100vw;
+    height: 560px;
+}
+div.document>section>.img{
+    background-image: url('../img/sub10/8.JPG');
+    width: 100%; height: 100vh;
+
+}
+div.document>section>.top{
+    background-image: url('../img/sub10/6.JPG');
+    background-position: center;
+
+}
+div.document>section>.last{
+    background-image: url('../img/sub10/7.JPG');
+    background-position: center;
+}
+div.document>section>article>.segment{
+    width: 1080px;
+    margin: 0 auto;
+
+}
+div.document>section>article>.segment>.fr{
+    background-color: rgba(0,0,0,0.5);
+    width: 640px; height: 560px;
+    float: right;
+    margin-right: 70px;
+}
+div.document>section>article>.segment>.fl{
+    background-color: rgba(0,0,0,0.5);
+    width: 640px; height: 560px;
+    margin-left: 10px;
+}
+div.document>section>article>.segment>.fr>h3{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+div.document>section>article>.segment>.fr>p{
+    width: 500px; height: 400px;
+    margin: 0 auto;
+    color: #fff;
+    margin: 0 70px;
+}
+div.document>section>article>.segment>.fl>h3{
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 80px;
+}
+div.document>section>article>.segment>.fl>p{
+    width: 500; height: 400px;
+    margin: 0 auto;
+    color: #fff;
+    margin: 0 70px;
+}

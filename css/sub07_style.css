@@ -1,0 +1,190 @@
+/*sub07_style.css*/
+h2{ font-size: 36px; font-weight: bold;
+    line-height: 80px;
+    margin-left: 20px;
+    height: 80px;}
+
+h3{ font-size: 18px; font-weight: bold;
+    line-height: 40px;}
+
+h5{ color: #0952a1;
+    font-size: 12px;
+    line-height: 40px;
+    text-indent: 20px;
+    font-weight: bold;}
+
+main{background-image:url('../img/sub07/volvo-heritage-0.jpg');}
+
+figure{background-size: cover; background-position: center;}
+.img1-1{background-image: url(../img/sub07/volvo-heritage-1-1.jpg);
+}
+.img1-2{background-image: url(../img/sub07/volvo-heritage-1-2.jpg);}
+.img2{background-image: url(../img/sub07/volvo-heritage-2.jpg)}
+.img3{background-image: url(../img/sub07/volvo-heritage-3.jpg)}
+.img4{background-image: url(../img/sub07/volvo-heritage-4.JPG)}
+.img5-1{background-image: url(../img/sub07/volvo-heritage-5-1.jpg)}
+.img5-2{background-image: url(../img/sub07/volvo-heritage-5-2.jpg)}
+.img6{background-image: url(../img/sub07/volvo-heritage-6.jpg)}
+
+/***********content***********/
+
+div.content{}
+div.content>section{}
+
+
+/*section01*/
+div.content>.sc01{
+    width: 1060px; overflow: hidden;
+    padding-top: 40px;}
+div.content>section>.hl{
+    width: 720px;
+    float: left; }
+div.content>section>.hl>header{
+    height: 240px;
+    /* animation-name: aniHl;
+    animation-delay: 4s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+
+div.content>section>.hl>header>p{
+    margin-left:20px;
+    width: 520px;
+}
+div.content>section>.hl>figure{ height: 480px; }
+
+div.content>section>.hr{
+    width: 340px;
+    float: right;}
+div.content>section>.hr>.blank{
+    height: 240px;
+    /* animation-name: aniHr;
+    animation-delay: 4s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+div.content>section>.hr>figure{ height: 480px; }
+div.content>section>.hr>header{
+    height: 480px;
+    padding-top: 40px;
+    padding-left: 70px;
+
+}
+div.content>section>.hr>header>p{width: 270px;}
+@keyframes aniHl{0%{height: 240px;} 100%{height: 480px;}}
+@keyframes aniHr{0%{height: 240px;} 100%{height: 0;}}
+
+
+
+/*section02*/
+div.content>.sc02{
+    width: 1060px; margin: 40px auto;
+    overflow: hidden;}
+div.content>.sc02>.fr{height: 480px;}
+div.content>.sc02>.fr>header{
+    float: left;
+    width: 450px; height: 480px;
+    padding-top: 40px; margin-left: 70px;
+    padding-right: 40px;
+}
+div.content>.sc02>.fr>figure{
+    float: right;
+    width: 540px; height: 480px;
+}
+div.content>.sc02>article.fl{
+    height: 560px;
+    padding: 40px 0;}
+
+div.content>.sc02>.fl>figure{
+    height: 480px; width: 550px;
+    float: left;
+}
+div.content>.sc02>.fl>header{
+    width: 450px;
+    float: right;
+    padding-top: 40px;
+}
+
+
+
+/*section03*/
+div.content>.sc03{
+    width: 1060px; overflow: hidden;}
+
+div.content>.sc03>.hl>.blank{
+    height: 240px;
+    /* animation-name: aniHl2;
+    animation-delay: 15s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+div.content>.sc03>.hl>figure{}
+div.content>.sc03>.hl>header>.lam{
+    width: 430px; height: 240px;
+    padding-top: 40px;
+    margin-right: 20px;
+    padding-right: 40px;
+    /* animation-name: aniHl2text;
+    animation-delay: 18s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+div.content>.sc03>.hl>header>.suv{
+    width: 450px; height: 280px;
+    padding: 80px 0;
+    margin-left: 270px;
+    margin-right: 20px;
+
+
+
+    /* animation-name: aniHl2text2;
+    animation-delay: 18s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+div.content>.sc03>.hr>header{
+    height: 240px;
+    /* animation-name: aniHr2;
+    animation-delay: 15s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+@keyframes aniHl2{0%{height: 240px;} 100%{height: 0;}}
+@keyframes aniHl2text{0%{margin-left: 0;} 100%{margin-left: 270px;}}
+@keyframes aniHl2text2{0%{margin-left: 270px;} 100%{margin-left: 0px;}}
+@keyframes aniHr2{0%{ height: 240px;} 100%{  height: 480px;}}
+
+
+/*section04*/
+div.content>.sc04{padding-top:40px;}
+div.content>.sc04>.sliding{
+    width: calc((100vw - 1080px) / 2 + 1060px);
+    height: 480px;
+    background-color: #0e0e0e;
+    margin-left: 200%;
+    /* animation-name: carAni;
+    animation-delay: 18s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+div.content>.sc04>.sliding>figure{
+    width: 1060px; height: 480px;}
+
+@keyframes carAni{
+    0% {margin-left: 100%;}
+    100% {margin-left: 0%;}}
+div.content>.sc04>.sliding>a>button{
+    background-color: #0952a1;
+    color: #fff; border: none;
+    font-weight: bold; line-height: 40px;
+    width: 250px; height: 40px;
+    position: relative;
+    left: 20px; bottom: 60px;
+    cursor: pointer;}

@@ -1,0 +1,448 @@
+/*common.css*/
+
+/*header*/
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+input{
+    display: none;
+}
+
+div.gnbWrap{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 99.9vw;
+    z-index: 1000;
+    height: 120px;
+}
+div.gnbWrap>nav{
+    width: 1080px;
+    margin: 0 auto;
+}
+div.gnbWrap>nav>h1{
+    background-image: url('../img/common/Volvo-logo.png');
+    background-position: center;
+    background-size: cover;
+    width: 106px;
+    height: 60px;
+    margin: 10px auto;
+}
+div.gnbWrap>nav>h1>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+div.gnbWrap>nav>ul{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 228px;
+}
+div.gnbWrap>nav>ul>li{
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    border-bottom: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    height: 40px;
+
+}
+div.gnbWrap>nav>div{
+    float: right;
+    margin-top: 0px;
+    color: rgba(9,82,161,1);
+    line-height: 40px;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+div.gnbWrap>nav>div>label>i:hover{
+    cursor: pointer;
+}
+div.gnbWrap>nav>ul>li:hover{
+    box-sizing: border-box;
+    border-bottom: 4px solid rgb(9, 82, 161);
+    color: rgb(9, 82, 161);
+}
+div.gnbWrap>nav>ul>li>label:hover{
+    cursor: pointer;
+}
+
+div.lnbWrap{
+    width: 99.9vw;
+    background-color: #fff;
+    position: fixed;
+    top: 120px;
+    z-index: 999;
+}
+input#cars:checked~.lnbWrap>.carsWrap{
+    display: block;
+}
+input#buy:checked~.lnbWrap>.buyWrap{
+    display: block;
+}
+input#brand:checked~.lnbWrap>.brandWrap{
+    display: block;
+}
+input#service:checked~.lnbWrap>.serviceWrap{
+    display: block;
+}
+input#close:checked~.lnbWrap>*.div{
+    display: none;
+}
+input#cars:checked~.gnbWrap>nav>div{
+    display: block;
+}
+input#buy:checked~.gnbWrap>nav>div{
+    display: block;
+}
+input#brand:checked~.gnbWrap>nav>div{
+    display: block;
+}
+input#service:checked~.gnbWrap>nav>div{
+    display: block;
+}
+div.lnbWrap>div{
+    width: 1080px;
+    margin: 0 auto;
+    color: rgb(9, 82, 161);
+}
+div.lnbWrap>.carsWrap{
+    display: none;
+}
+div.lnbWrap>.buyWrap{
+    display: none;
+}
+div.lnbWrap>.brandWrap{
+    display: none;
+}
+div.lnbWrap>.serviceWrap{
+    display: none;
+}
+div.lnbWrap>.carsWrap>.cars>ul{
+    overflow: hidden;
+    padding-top: 20px;
+}
+div.lnbWrap>.carsWrap>.cars>ul>li{
+    text-align: center;
+    float: left;
+}
+div.lnbWrap>.carsWrap>.cars>ul>li>figure{
+    width: 250px;
+    height: 120px;
+    margin: 0 10px;
+    background-position: center;
+    background-size: cover;
+}
+div.lnbWrap>.carsWrap>.cars>ul>.xc60>figure{
+    background-image: url('../img/common/xc60side.jpg');
+
+}
+div.lnbWrap>.carsWrap>.cars>ul>.xc40>figure{
+    background-image: url('../img/common/xc40side.jpg');
+
+}
+div.lnbWrap>.carsWrap>.cars>ul>.s90>figure{
+    background-image: url('../img/common/s90side.jpg');
+
+}
+div.lnbWrap>.carsWrap>.cars>ul>.s60>figure{
+    background-image: url('../img/common/s60side.jpg');
+
+}
+
+div.lnbWrap>.carsWrap>.cars>ul>.xc60>figure>a{
+    width: 250px;
+    height: 120px;
+    display: block;
+}
+div.lnbWrap>.carsWrap>.cars>ul>.xc40>figure>a{
+    width: 250px;
+    height: 120px;
+    display: block;
+}
+div.lnbWrap>.carsWrap>.cars>ul>.s90>figure>a{
+    width: 250px;
+    height: 120px;
+    display: block;
+}
+div.lnbWrap>.carsWrap>.cars>ul>.s60>figure>a{
+    width: 250px;
+    height: 120px;
+    display: block;
+}
+div.lnbWrap>.carsWrap>.cars>ul>li>h4{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    width: 250px;
+}
+div.lnbWrap>.carsWrap>.cars>ul>li>p{
+    width: 250px;
+    height: 80px;
+}
+div.lnbWrap>.buyWrap{}
+div.lnbWrap>.buyWrap>.buy{}
+div.lnbWrap>.buyWrap>.buy>ul{
+    width: 185.5px;
+    margin-left: 410px;
+}
+div.lnbWrap>.buyWrap>.buy>ul>li{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+div.lnbWrap>.brandWrap{}
+div.lnbWrap>.brandWrap>.brand{}
+div.lnbWrap>.brandWrap>.brand>ul{
+    width: 256px;
+    margin-left: 426px;
+}
+div.lnbWrap>.brandWrap>.brand>ul>li{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+div.lnbWrap>.serviceWrap{}
+div.lnbWrap>.serviceWrap>.service{}
+div.lnbWrap>.serviceWrap>.service>ul{
+    width: 168px;
+    margin-left: 535px;
+}
+div.lnbWrap>.serviceWrap>.service>ul>li{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+
+/*footer*/
+div.ftrWrap{
+    padding: 120px 0;
+    background-color: #000;
+}
+div.ftrWrap>footer{
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+div.ftrWrap>footer>h4{
+    font-weight: bold;
+    line-height: 40px;
+}
+div.ftrWrap>footer>h1{
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 258px;
+    height: 40px;
+}
+div.ftrWrap>footer>.icon{
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 20px 0;
+}
+div.ftrWrap>footer>.icon>a{
+    margin: 0 10px;
+}
+div.ftrWrap>footer>ul{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 270.58px;
+}
+div.ftrWrap>footer>ul>li{
+    float: left;
+    margin: 0 10px;
+    line-height: 40px;
+}
+div.ftrWrap>footer>p{
+    line-height: 40px;
+}
+
+/*main*/
+
+
+/*img는 main에 background-image로 넣었습니다.
+ 각 개인의 style.css 에서 background-image:url(경로) 지정하시기 바랍니다.*/
+main{
+    background-color:#eee;
+    width: 100vw; height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/*
+    불투명 박스는 전체적으로 header 태그로 묶어
+    1) div.title : 제목영역 태그
+    2) div.segment : 내용+버튼 영역 태그로 구성했습니다.
+
+        <header class="ani">
+            <div class="title">
+                <div class="bar"></div>
+                <h2>제목</h2>
+            </div>
+            <div class="segment">
+                <p>내용</p>
+                <a href="링크">
+                    <button>버튼이름&nbsp;&nbsp;&gt;</button>
+                </a>
+            </div>
+        </header>
+*/
+main>.ani{
+    width: calc((100vw - 1080px) / 2 + 1080px);
+    height: 200px;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 40px;
+    padding-left: calc((100vw - 1080px) / 2);
+
+    animation-name: hdrAni;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
+main>.ani>.title{
+    padding-top: 40px;
+    color: #fff;
+}
+main>.ani>.title>h2{
+    font-size: 36px;
+    line-height: 80px;
+    text-indent: 10px;
+    height: 80px;
+}
+
+main>.ani>.title>.bar{
+    width: 10px; height: 40px;
+    background-color: #0952a1;
+    margin: 20px 0;
+    float: left;
+}
+
+main>.ani>.segment>p{
+    float: left;
+    color: #fff;
+    line-height: 40px;
+    text-indent: 20px;
+}
+main>.ani>.segment>a>button{
+    background-color: #0952a1;
+    color: #fff; border: none;
+    font-weight: bold; line-height: 40px;
+    width: 250px; height: 40px;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+@keyframes hdrAni{
+    0% {margin-left: -100%;}
+    100% {margin-left: 0%;}
+}
+
+
+
+
+
+/*content*/
+div.content{
+    padding: 120px 0;
+}
+div.content>header{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.bar{
+    width: 10px; height: 40px;
+    background-color: #0952a1;
+    margin: 20px 0;
+    float: left;}
+
+div.content>section{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+div.pml{
+    background-color: ;
+    position: fixed;
+    top: 80px;
+    z-index: 10000;
+}
+div.pml>.btnWrap{
+    margin-left: calc((99vw - 1080px) / 2 + 10px);
+}
+div.pml>.btnWrap>h4{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    color : rgba(255,255,255,0.7);
+}
+
+div.pmr{
+    background-color: ;
+    position: fixed;
+    top: 80px;
+    right: calc((99vw - 1080px) / 2 + 10px);
+    z-index: 10000;
+    height: 40px;
+}
+div.pmr>.btnWrap{
+    /*margin-right: calc((99vw - 1080px) / 2 + 10px);*/
+}
+div.pmr>.btnWrap>h4{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    color : rgba(255,255,255,0.7);
+}
+
+/* html복붙용
+<div class="pml">
+        <div class="btnWrap">
+            <h4><a href="경로"><i class="fas fa-angle-left"></i>&nbsp;&nbsp; Back to 메인</a></h4>
+        </div>
+    </div>
+<div class="pmr">
+    <div class="btnWrap">
+        <h4><a href="경로">Move to Features &nbsp;&nbsp; <i class="fas fa-angle-right"></i></a></h4>
+    </div>
+</div>
+*/
+
+/*
+div.content>header>.title{
+    overflow: hidden;
+    font-weight: bold;
+    float: left;
+    width: calc(50% - 20px);
+    margin: 0 10px;
+}
+
+div.content>header>.title>h5{
+    color: #0952a1;
+    font-size: 12px;
+    line-height: 40px;
+    text-indent: 20px;
+}
+div.content>header>p{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    float: right;
+    padding-top: 20px;
+    text-align: left;
+}
+*/

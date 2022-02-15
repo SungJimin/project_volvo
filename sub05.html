@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>sub05_dealer.html</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub05_style.css">
+
+    <!--<script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script>-->
+
+
+</head>
+
+<body>
+    <!--nav-->
+    <input type="radio" name="vol1" id="cars">
+    <input type="radio" name="vol1" id="buy">
+    <input type="radio" name="vol1" id="brand">
+    <input type="radio" name="vol1" id="service">
+    <input type="radio" name="vol1" id="close">
+    <div class="gnbWrap">
+        <nav>
+            <h1><a href="index.html"></a></h1>
+            <ul>
+                <li><label for="cars">Cars</label></li>
+                <li><label for="buy">Buy</label></li>
+                <li><label for="brand">Brand</label></li>
+                <li><label for="service">Service</label></li>
+            </ul>
+            <div><label for="close"><i class="fas fa-times"></i></label></div>
+        </nav>
+    </div>
+    <div class="lnbWrap">
+        <div class="carsWrap">
+            <nav class="cars">
+                <ul>
+                    <li class="s60">
+                        <figure><a href="sub04.html"></a></figure>
+                        <h4>S60</h4>
+                        <p>당신의 심장을 뛰게 할<br>디자인과 퍼포먼스</p>
+                    </li>
+                    <li class="s90">
+                        <figure><a href="sub03.html"></a></figure>
+                        <h4>S90</h4>
+                        <p>럭셔리 세단의 과감한 변화<br>가장 스웨디시한 럭셔리</p>
+                    </li>
+                    <li class="xc40">
+                        <figure><a href="sub02.html"></a></figure>
+                        <h4>XC40</h4>
+                        <p>운전자에게 가장 적합한<br>도시형 SUV</p>
+                    </li>
+                    <li class="xc60">
+                        <figure><a href="sub01.html"></a></figure>
+                        <h4>XC60</h4>
+                        <p>우월한 존재감,<br>스웨덴의 솜씨.</p>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="buyWrap">
+            <nav class="buy">
+                <ul>
+                    <li><a href="sub05.html">Dealer</a></li>
+                    <li><a href="sub06.html">Promotion</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="brandWrap">
+            <nav class="brand">
+                <ul>
+                    <li><a href="sub07.html">Heritage</a></li>
+                    <li><a href="sub08.html">Experience</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="serviceWrap">
+            <nav class="service">
+                <ul>
+                    <li><a href="sub09.html">Service</a></li>
+                    <li><a href="sub10.html">Tutotial</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!--main-->
+    <main>
+        <header class="ani">
+            <div class="title">
+                <div class="bar"></div>
+                <h2>볼보 자동차 공식 전시장</h2>
+            </div>
+            <div class="segment">
+                <p>서울&nbsp; &nbsp;경기&nbsp; &nbsp;기타지역</p>
+                <a href="sub01.html">
+                    <button>차량 상세 보기&nbsp;&nbsp;&gt;</button>
+                </a>
+            </div>
+        </header>
+    </main>
+
+
+    <!--content-->
+    <!--name은 input을 하나로 묶어주는 것 /
+    class는 중복가능, id=for는 중복불가능-->
+    <!--ctrl+shift+d 누르면 한 줄 삭제-->
+    <input type="radio" name="bt" id="art01" checked>
+    <input type="radio" name="bt" id="art02">
+    <input type="radio" name="bt" id="art03">
+
+    <input type="radio" name="st" id="sc01" checked>
+    <input type="radio" name="st" id="sc02">
+    <input type="radio" name="st" id="sc03">
+    <input type="radio" name="st" id="sc04">
+    <input type="radio" name="st" id="sc05">
+
+    <input type="radio" name="st1" id="sc011" checked>
+    <input type="radio" name="st1" id="sc022">
+    <input type="radio" name="st1" id="sc033">
+    <input type="radio" name="st1" id="sc044">
+
+    <input type="radio" name="st2" id="sc0111" checked>
+    <input type="radio" name="st2" id="sc0222">
+    <input type="radio" name="st2" id="sc0333">
+    <input type="radio" name="st2" id="sc0444">
+
+    <div class="content">
+        <header>
+            <ul>
+                <li><label for="art01" class="h1">서울</label></li>
+                <li><label for="art02" class="h2">경기도</label></li>
+                <li><label for="art03" class="h3">기타지역</label></li>
+            </ul>
+        </header>
+        <section>
+            <article class="art01">
+                <header>
+                    <ul>
+                        <li><label for="sc01" class="s1">서초</label></li>
+                        <li><label for="sc02" class="s2">신사</label></li>
+                        <li><label for="sc03" class="s3">목동</label></li>
+                        <li><label for="sc04" class="s4">송파</label></li>
+                        <li><label for="sc05" class="s5">용산</label></li>
+                    </ul>
+                </header>
+                <!--서초-->
+                <section class="sc01">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>서울특별시 서초구 반포대로 66</li>
+                                <li><a href="kolon.volvocars.co.kr/">
+                                kolon.volvocars.co.kr/</a>
+                                </li>
+                                <li>02-3486-2900</li>
+                                <li>02-3487-0900</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.911721132917!2d127.00847161564646!3d37.4864095364698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca055b7009ce3%3A0xafd92860fb10956f!2z67O867O07J6Q64-Z7LCo7ISc7LSI7KCE7Iuc7J6l!5e0!3m2!1sko!2skr!4v1548744328706" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+
+                </section>
+                <!--신사-->
+                <section class="sc02">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>서울특별시 강남구 도산대로 165</li>
+                                <li>
+                                <a href="h.volvocars.co.kr/">
+                                h.volvocars.co.kr/</a></li>
+                                <li>02-515-9090</li>
+                                <li>02-515-9089</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.5140785236595!2d127.02444381564716!3d37.51937733458438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3ed189912c7%3A0x8b5915bbb3edff30!2z67O867O0IOqwleuCqOyLoOyCrOyghOyLnOyepQ!5e0!3m2!1sko!2skr!4v1548743973426" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+                <!--목동-->
+                <section class="sc03">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>서울시 양천구 신목로7길</li>
+                                <li><a href="aju.volvocars.co.kr/">
+                                aju.volvocars.co.kr/</a></li>
+                                <li>02-2061-6789</li>
+                                <li>02-2061-5959</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.5001722115016!2d126.87006451564707!3d37.519705234565876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9e7e672c27d5%3A0x8ab0e46efc22f598!2z67O867O0IOuqqeuPmeqzteyLneuUnOufrCDslYTso7zsmKTthqDrpqzsm4A!5e0!3m2!1sko!2skr!4v1548744081979" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+                <!--송파-->
+                <section class="sc04">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>서울특별시 송파구 위례성대로 124</li>
+                                <li><a href="kolon.volvocars.co.kr/">
+                                kolon.volvocars.co.kr/</a></li>
+                                <li>02-413-0900</li>
+                                <li>02-413-0907</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.815598200667!2d127.12340481564684!3d37.51226713499123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca57d536b7409%3A0xd9ae83bd2687bbfb!2zVk9MVk8g7Iah7YyM7KCE7Iuc7J6lLCBBU-yEvO2EsA!5e0!3m2!1sko!2skr!4v1548744508199" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+                <!--용산-->
+                <section class="sc05">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>서울특별시 용산구 한강대로 29</li>
+                                <li><a href="ch.volvocars.co.kr/">
+                                ch.volvocars.co.kr/
+                                </a></li>
+                                <li>02-794-1800</li>
+                                <li>02-794-1803</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.319206822772!2d126.96034091564715!3d37.52397203432175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1f85136c7b1%3A0xe47e4b5fa6f55ded!2zVk9MVk_smqnsgrDsoITsi5zsnqU!5e0!3m2!1sko!2skr!4v1548744219097" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+            </article>
+
+            <!--경기도-->
+               <article class="art02">
+                <header>
+                    <ul>
+                        <li><label for="sc011" class="s1">분당</label></li>
+                        <li><label for="sc022" class="s2">수원</label></li>
+                        <li><label for="sc033" class="s3">안양</label></li>
+                        <li><label for="sc044" class="s4">일산</label></li>
+                    </ul>
+                </header>
+                <!--분당-->
+                <section class="sc01">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>경기도 성남시 분당구 서현1동 99-1</li>
+                                <li><a href="h.volvocars.co.kr/">
+                                h.volvocars.co.kr/</a></li>
+                                <li>031-707-2266</li>
+                                <li>031-707-9166</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12681.466689756493!2d127.10759544098715!3d37.381159977955996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b57fbd6127d9d%3A0x24393ab11f86e2b!2z67O867O07J6Q64-Z7LCo67aE64u57KCE7Iuc7J6l!5e0!3m2!1sko!2skr!4v1548744973696" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+                <!--수원-->
+                <section class="sc02">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>경기도 수원시 영통구 매탄2동 102-22</li>
+                                <li><a href="h.volvocars.co.kr/">
+                                h.volvocars.co.kr/</a></li>
+                                <li>031-216-6777</li>
+                                <li>031-216-6464</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.0879848409195!2d127.05371216564217!3d37.26934064884934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5b52a3142e49%3A0x9d0f782af650fd6f!2z67O867O07IiY7JuQ7KCE7Iuc7J6l!5e0!3m2!1sko!2skr!4v1548744833536" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+                <!--안양-->
+                <section class="sc03">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>안양시 동안구 관악대로 265</li>
+                                <li><a href="aju.volvocars.co.kr/">
+                                aju.volvocars.co.kr/</a></li>
+                                <li>031-385-6789</li>
+                                <li>031-385-5535</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.465669218934!2d126.9500536656448!3d37.40246684126426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b61c868cd9ad7%3A0x34feba13c4294f7a!2z67O867O0IOyVhOyjvOyYpO2GoOumrOybgCDslYjslpHsoITsi5zsnqU!5e0!3m2!1sko!2skr!4v1548744655991" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+                <!--일산-->
+                <section class="sc04">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>경기도 고양시 일산동구 풍동 123</li>
+                                <li><a href="aju.volvocars.co.kr/">
+                                aju.volvocars.co.kr/</a></li>
+                                <li>031-906-6789</li>
+                                <li>031-906-9797</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.429675796375!2d126.80200181564986!3d37.66261032637715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9073458c93bf%3A0x17295892cc1dfbb4!2z7JWE7KO87Jik7Yag66as7JuAKOyjvCk!5e0!3m2!1sko!2skr!4v1548744930745" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+            </article>
+
+            <!--기타지역-->
+               <article class="art03">
+                <header>
+                    <ul>
+                        <li><label for="sc0111" class="s1">대전</label></li>
+                        <li><label for="sc0222" class="s2">대구</label></li>
+                        <li><label for="sc0333" class="s3">광안</label></li>
+                        <li><label for="sc0444" class="s4">울산</label></li>
+                    </ul>
+                </header>
+                <!--대전-->
+                <section class="sc01">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>대전광역시 대덕구 중리동 230-8</li>
+                                <li><a href="h.volvocars.co.kr/">
+                                h.volvocars.co.kr/</a></li>
+                                <li>042-628-2200</li>
+                                <li>042-628-6084</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.094113637839!2d127.41993801562477!3d36.35849920013697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356549abbcb21735%3A0x63e0e55ac936b465!2z67O867O07J6Q64-Z7LCo64yA7KCE7KCE7Iuc7J6l!5e0!3m2!1sko!2skr!4v1548745222107" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+                <!--대구-->
+                <section class="sc02">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>대구광역시 수성구 중동 192-1</li>
+                                <li><a href="ty.volvocars.co.kr/">
+                                ty.volvocars.co.kr/</a></li>
+                                <li>053-768-5588</li>
+                                <li>053-768-9517</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.3297814035736!2d128.613894315615!3d35.84091632880453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e253ff7b92cb%3A0x60ade362be07704c!2z67O867O064yA6rWs7KCE7Iuc7J6l!5e0!3m2!1sko!2skr!4v1548745182620" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+                <!--광안-->
+                <section class="sc03">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>부산광역시 수영구 광안동 159-19</li>
+                                <li><a href="iron.volvocars.co.kr/">
+                                iron.volvocars.co.kr/</a></li>
+                                <li>051-759-1600</li>
+                                <li>051-752-7200</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13046.572873127318!2d129.11530929031397!3d35.16551772660973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568ed2936bd2b29%3A0x11d045c392736e87!2z67O867O06rSR7JWI7KCE7Iuc7J6l!5e0!3m2!1sko!2skr!4v1548745266969" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+                <!--울산-->
+                <section class="sc04">
+                    <article class="detail">
+                        <div class="segment img"></div>
+                        <div class="segment text">
+                            <ul class="title">
+                                <li>주소</li>
+                                <li>홈페이지</li>
+                                <li>대표번호</li>
+                                <li>FAX</li>
+                            </ul>
+                            <ul>
+                                <li>울산광역시 남구 삼산동 1540-10</li>
+                                <li><a href="kolon.volvocars.co.kr/">
+                                kolon.volvocars.co.kr/</a></li>
+                                <li>052-268-0900</li>
+                                <li>052-272-9990</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4460.338665365928!2d129.33728077621356!3d35.544981594081285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3567cd5542e99515%3A0xc0ec763ab4353f7!2z7L2U7Jik66Gx7Jik7Yag66qo7Yuw67iMIOuzvOuztCDsmrjsgrDsoITsi5zsnqU!5e0!3m2!1sko!2skr!4v1548745119827" width="1080" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+                </section>
+            </article>
+        </section>
+    </div>
+
+
+
+    <!--footer-->
+    <div class="ftrWrap">
+        <footer>
+            <h4>Volvo Cars Korea</h4>
+            <h1><a href="#"><img src="img/common/volvoT.png" alt=""></a></h1>
+            <div class="icon"><a href="https://www.instagram.com/volvocarkorea/" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://www.youtube.com/channel/UCyZk3V2z0Xa2mSXwYIOrciw" target="_blank"><i class="fab fa-youtube"></i></a> <a href="https://www.facebook.com/VolvoCarKorea/" target="_blank"><i class="fab fa-facebook"></i></a></div>
+            <ul>
+                <li><a href="https://www.volvocars.com/kr/footer/legal" target="_blank">법적고지사항</a></li>
+                <li><a href="https://www.volvocars.com/kr/footer/cookies" target="_blank">쿠키</a></li>
+                <li><a href="https://www.volvocars.com/kr/footer/privacy" target="_blank">개인정보취급방침</a></li>
+            </ul>
+            <p>Copyright © 2019 Volvo Car Corporation</p>
+        </footer>
+    </div>
+</body>
+
+</html>

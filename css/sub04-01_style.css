@@ -1,0 +1,367 @@
+/*sub04-01_style.css*/
+main{
+    width: 99vw;
+    height: 99vh;
+    background-image: url('../img/sub04/s60_F_main.jpg');
+    background-size: cover;
+    background-position: center;
+}
+main>header{
+    position: absolute;
+    left: calc((99vw - 1080px) / 2 + 10px);
+    top: 200px;
+}
+main>header>h3{
+    color : white;
+    line-height: 40px;
+}
+main>header>h2{
+    color : white;
+    line-height: 80px;
+    font-size: 36px;
+}
+main>header>p{
+    color : white;
+}
+
+
+div.content{}
+div.dp{}
+div.dp>header{}
+div.dp>header>.title{}
+div.dp>header>.title>.bar{}
+div.dp>header>.title>h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 20px;
+}
+div.dp>header>.title>h5{
+    font-weight: bold;
+    padding-left: 20px;
+}
+div.dp>section{
+    margin-top: 40px;
+}
+div.dp>section:after{
+    display: block; content: '';
+    clear: both;
+}
+div.dp>section>article{
+    float: left;
+    margin: 0 8px;
+    border: 2px solid #e8e8e8;
+    transition: all 0.5s;
+}
+div.dp>section>article:hover{
+    box-shadow: 0px 1px 12px rgba(0,0,0,0.2);
+    margin-top: -10px;
+}
+div.dp>section>article>figure{
+    width: 340px;
+    height: 320px;
+}
+
+div.dp>section>article>.dpImg01{
+    background-image: url('../img/sub04/s60_F_wheel.jpg');
+}
+div.dp>section>article>.dpImg02{
+    background-image: url('../img/sub04/s60_F_break.jpg');
+}
+div.dp>section>article>.dpImg03{
+    background-image: url('../img/sub04/s60_F_gear.jpg');
+}
+div.dp>section>article>h3{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+div.dp>section>article>p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    height: 100px;
+}
+
+
+div.ep{}
+div.ep>header{
+    overflow: hidden;
+    width: 1080px;
+    height: 640px;
+    background-color: #000;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+div.ep>header>.title{
+    float: right;
+    color : white;
+}
+div.ep>header>.title>.bar{
+    float: right;
+    margin-right: 90px;
+}
+div.ep>header>.title>h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 80px;
+    width: 445px;
+    height: 80px;
+    float: right;
+    
+}
+div.ep>header>.title>h5{
+    font-weight: bold;
+    text-align: right;
+    padding-right: 110px;
+    line-height: 40px;
+}
+div.ep>header>.title>p{
+    text-align: right;
+    margin-top: 20px;
+    padding-right: 110px;
+}
+div.ep>section{}
+div.ep>section>.img{
+    width: 740px;
+    height: 560px;
+    background-image: url('../img/sub04/s60_F_speed.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -400px;
+    transition: all 0.5s;
+}
+div.ep>section>.img:hover{
+    width: 800px;
+    
+}
+div.ep>section>article{
+    overflow: hidden;
+}
+div.ep>section>article:nth-child(2){
+    margin-top: 40px;
+}
+div.ep>section>article>.segment{
+    float: left;
+    margin: 0 10px;
+    width: 340px;
+    height: 240px;
+    overflow: hidden;
+}
+div.ep>section>article>.segment:hover>.textWrap{
+    margin-top: -240px;
+}
+div.ep>section>article>.segment>figure{
+    width: 340px;
+    height: 240px;
+}
+div.ep>section>article>.segment>.epimg01{
+    background-image: url('../img/sub04/s60_F_m01.jpg');
+}
+div.ep>section>article>.segment>.epimg02{
+    background-image: url('../img/sub04/s60_F_m02.jpg')
+}
+div.ep>section>article>.segment>.epimg03{
+    background-image: url('../img/sub04/s60_F_m03.jpg')
+}
+div.ep>section>article>.segment>.textWrap{
+    width: 340px;
+    height: 240px;
+    padding: 40px 0;
+    background-color: rgba(0,0,0,0.5);
+    transition: all 1s;
+}
+div.ep>section>article>.segment>.textWrap>h3{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    color : white;
+}
+div.ep>section>article>.segment>.textWrap>p{
+    color : white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+div.ps{}
+div.ps>header{}
+div.ps>header>.title{}
+div.ps>header>.title>.bar{}
+div.ps>header>.title>h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 20px;
+}
+div.ps>header>.title>h5{
+    font-weight: bold;
+    padding-left: 20px;
+}
+div.ps>section{
+    overflow: hidden;
+    margin-top: 40px;
+}
+div.ps>section>div{
+    float: left;
+    margin: 0 10px;
+    width: 340px;
+    height: 740px;
+}
+div.ps>section>div>article{
+    background-position: center;
+    position: relative;
+}
+div.ps>section>div>article>div{
+    transition: opacity 0.5s;
+}
+div.ps>section>div>article>a{
+    position: absolute;
+    
+}
+
+div.ps>section>.imgWrap01>.img01>figure{
+    width: 340px;
+    height: 240px;
+    background-image: url('../img/sub04/s60_F_img01.jpg');
+}
+div.ps>section>.imgWrap01>.img01>.screen{
+    width: 340px;
+    height: 240px;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: -240px;
+}
+div.ps>section>.imgWrap01>.img01:hover>.screen{
+    opacity: 0;
+    cursor: pointer;
+}
+div.ps>section>.imgWrap01>.img02>figure{
+    width: 340px;
+    height: 480px;
+    background-image: url('../img/sub04/s60_F_img04.jpg');
+    margin-top: 20px;
+}
+div.ps>section>.imgWrap01>.img02>.screen{
+    width: 340px;
+    height: 480px;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: -480px;
+}
+div.ps>section>.imgWrap01>.img02:hover>.screen{
+    opacity: 0;
+    cursor: pointer;
+}
+
+div.ps>section>.imgWrap02>.img03>figure{
+    width: 340px;
+    height: 480px;
+    background-image: url('../img/sub04/s60_F_img02.jpg');
+}
+div.ps>section>.imgWrap02>.img03>.screen{
+    width: 340px;
+    height: 480px;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: -480px;
+}
+div.ps>section>.imgWrap02>.img03:hover>.screen{
+    opacity: 0;
+    cursor: pointer;
+}
+
+div.ps>section>.imgWrap02>.img04>figure{
+    width: 340px;
+    height: 240px;
+    background-image: url('../img/sub04/s60_F_img05.jpg');
+    margin-top: 20px;
+}
+div.ps>section>.imgWrap02>.img04>.screen{
+    width: 340px;
+    height: 240px;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: -240px;
+}
+div.ps>section>.imgWrap02>.img04:hover>.screen{
+    opacity: 0;
+    cursor: pointer;
+}
+
+div.ps>section>.imgWrap03>.img05>figure{
+    width: 340px;
+    height: 240px;
+    background-image: url('../img/sub04/s60_F_img03.jpg');
+}
+div.ps>section>.imgWrap03>.img05>.screen{
+    width: 340px;
+    height: 240px;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: -240px;
+}
+div.ps>section>.imgWrap03>.img05:hover>.screen{
+    opacity: 0;
+    cursor: pointer;
+}
+
+div.ps>section>.imgWrap03>.img06>figure{
+    width: 340px;
+    height: 480px;
+    background-image: url('../img/sub04/s60_F_img06.jpg');
+    margin-top: 20px;
+}
+div.ps>section>.imgWrap03>.img06>.screen{
+    width: 340px;
+    height: 480px;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: -480px;
+}
+div.ps>section>.imgWrap03>.img06:hover>.screen{
+    opacity: 0;
+    cursor: pointer;
+}
+
+div.ps>section>div>.img01>a{
+    width: 340px;
+    height: 240px;
+    display: block;
+    top: 0;
+}
+div.ps>section>div>.img02>a{
+    width: 340px;
+    height: 480px;
+    display: block;
+    bottom: 0;
+}
+div.ps>section>div>.img03>a{
+    width: 340px;
+    height: 480px;
+    display: block;
+    top: 0;
+   
+}
+div.ps>section>div>.img04>a{
+    width: 340px;
+    height: 240px;
+    display: block;
+    left: 0;
+    bottom: 0;
+    
+}
+div.ps>section>div>.img05>a{
+    width: 340px;
+    height: 240px;
+    display: block;
+    top: 0;
+    
+}
+div.ps>section>div>.img06>a{
+    width: 340px;
+    height: 480px;
+    display: block;
+    bottom: 0;
+    
+    
+}
